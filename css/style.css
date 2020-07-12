@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input::placeholder {
+    padding: 0px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: checkbox; 
+    -moz-appearance: checkbox;    
+    -ms-appearance: checkbox;     
+  }
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.box {
+    display: inline;
+}
+
+.input-box {
+    margin-right: -5px;
+    padding-left: 5px;
+}
+
+input[type='radio'] {
+    position: relative;
+    top: 6px;
+}
+.card-type h1,
+.personal-info h1 {
+    background-color: #BC3289;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 16px 0px;
+}
+
+.title,
+.full-name, 
+.name-extend,
+.date-of-birth,
+.marital-status,
+.father-name,
+.mother-name,
+.nationality,
+.religion,
+.passport-no,
+.passport-issue,
+.passport-expire,
+.district-birth,
+.passport-iss-place,
+.prev-pass,
+.tin,
+.NID,
+.last-edu-qual {
+    margin: 10px 0px;
+}
+
+.full-name input,
+.name-extend input,
+.date-of-birth input,
+.father-name input,
+.mother-name input,
+.nationality input,
+.passport-no input,
+.passport-issue input,
+.passport-expire input,
+.prev-pass input,
+.tin input,
+.NID input {
+    width: 25px;
+    height: 35px;
+}
+
+.religion input,
+.district-birth input,
+.passport-iss-place input,
+.title .diff input,
+.last-edu-qual .diff input,
+.marital-status .diff input {
+    height: 35px;
+}
+
+.visa-card,
+.master-card {
+    margin-bottom: 16px;
+}
+
+.visa-card p,
+.master-card p,
+.title p,
+.full-name p,
+.date-of-birth p,
+.marital-status p,
+.father-name p,
+.mother-name p,
+.nationality p,
+.religion p,
+.passport-no p,
+.passport-issue p,
+.passport-expire p,
+.district-birth p,
+.passport-iss-place p,
+.prev-pass p,
+.tin p,
+.NID p,
+.last-edu-qual p,
+.date-of-birth,
+.marital-status,
+.nationality,
+.religion,
+.passport-issue,
+.passport-expire,
+.district-birth,
+.passport-iss-place,
+.prev-pass,
+.tin,
+.NID,
+.last-edu-qual,
+.father-name,
+.mother-name,
+.sex {
+    display: inline-block;
+}
+
+.passport-no {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.visa-card label,
+.master-card label,
+.position strong {
+    position: relative;
+    top: -5px;
+    margin-right: 32px;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+    -webkit-appearance:none;
+    width:25px;
+    height:25px;
+    background:white;
+    border:2px solid #555;
+    margin-right: 32px;
+}
+input[type='checkbox']:checked,
+input[type='radio']:checked {
+    background: #555;
+}
+
+.personal-info input[type='checkbox'],
+.personal-info input[type='radio'],
+.sex input[type='checkbox'],
+.sex input[type='radio'],
+.marital-status input[type='checkbox'],
+.marital-status input[type='radio'],
+.last-edu-qual input[type='checkbox'],
+.last-edu-qual input[type='radio']
+{
+    margin-right: 0px;
+}
+
+.as-in-WB {
+    position: relative;
+    bottom: -18px;
+    left: -81px;
+    font-size: 14px;
+}
+
+.full-name .box {
+    margin-left: -71px;
+}
